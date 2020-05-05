@@ -3,13 +3,13 @@ from twilio.rest import Client
 import time
 
 # twilio account info
-account = "AC440937e54c20e713b4d1cb0bcd1a1e89"
-token = "721c5ee65944c3b4c8a0e0dcef2eee64"
+account = "[twilio SID]"
+token = "[token]"
 client = Client(account, token)
 
 
 #bittrex api key and secret
-api = Bittrex("0589202213e042e68a77ffd48b53861c", "e0332b74d7f54337b0124e9d2022ba12")
+api = Bittrex("[api key]", "[api secret]")
 
 def get_coin_value():
     while True:
