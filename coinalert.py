@@ -22,9 +22,9 @@ def get_coin_value():
         # test to see if the price of BTC-SC has risen above 0.00000975
         if last >= 4.39e-06:
             print("XVG has hit target of 439, make your move! Coin value at: " + str(last))
-            message = client.messages.create(to="+18186531589", from_="+18189753284",
+            message = client.messages.create(to="[phone number]", from_="[phone number]",
                                     body="XVG has hit target, make your move!")
-            message = client.messages.create(to="+18183902130", from_="+18189753284",
+            message = client.messages.create(to="[phone number]", from_="[phone number]",
                                     body="XVG has hit target, make your move!")
             time.sleep(285)
         else:
